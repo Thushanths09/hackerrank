@@ -1,6 +1,11 @@
 if __name__ == '__main__':
-    n = int(input("enter5"))
-    arr =map(int, n.split(","))
-
-for i in range(arr):
-    print(max(arr[i]))
+    n = int(input())
+    arr = map(int, input().split())
+a=list(arr)
+b=[]
+def runnerup():
+    for i in range(len(a)):
+        if a[i]!=max(a):
+            b.append(a[i])
+runnerup()
+print(max(b))

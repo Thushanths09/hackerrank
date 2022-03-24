@@ -4,6 +4,8 @@ if __name__ == '__main__':
         name = input()
         score = float(input())
         students.append([name,score]) #Create the nested list
+print(students)
+"""
     x = 99999
     for i in range(len(students)):
         if x > float(students[i][1]):
@@ -20,7 +22,7 @@ if __name__ == '__main__':
 
     for i in range(len(runner)):
         print(runner[i])
-        
+ """       
         
         
         
